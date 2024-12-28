@@ -1,0 +1,121 @@
+.linktaital{
+    text-decoration: none;
+    color: #000;
+}
+.containerchexkout{
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.taitalh{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+$primary-color: #333;
+$secondary-color: #555;
+$background-color: #f9f9f9;
+$button-color: #007bff;
+$button-hover-color: #0056b3;
+$input-border: #ccc;
+$input-focus-border: #007bff;
+
+.billing-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 27px;
+
+  .billing-form {
+    width: 28%;
+
+    h2 {
+      color: $primary-color;
+    }
+
+    label {
+      display: block;
+          margin: 10px 0 5px;
+      color: $secondary-color;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 20rem;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid $input-border;
+      border-radius: 5px;
+
+      &:focus {
+        border-color: $input-focus-border;
+        outline: none;
+      }
+    }
+  }
+
+  .order-summary {
+    width: 45%;
+
+    h2 {
+      color: $primary-color;
+    }
+
+    .summary-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+
+      &.total {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        color: $primary-color;
+      }
+    }
+
+    .place-order-btn {
+      display: flex;
+      flex-direction: column;
+      width: 13rem;
+      padding: 10px;
+      background-color: $button-color;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      align-items: center;
+      cursor: pointer;
+      &:hover {
+        background-color: $button-hover-color;
+      }
+    }
+  }
+}
+.lowbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin: 2rem;
+}
+.payment-method{
+    display: flex;
+}
+.paymentmethodlow{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.spanlow{
+  width: 1px;
+  height: 1px;
+  padding: 0.1rem;
+  border-radius: 50%;
+  background-color: #000;
+}
+.hrlow{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}

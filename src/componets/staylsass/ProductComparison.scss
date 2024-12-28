@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.containercomparison{
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.imgcomp{
+    width: 20rem;
+    height: 12rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    object-fit: cover;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.listcard{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.viewmore{
+    display: flex;
+    flex-direction: column;
+}
+.textline{
+    width: 5.5rem;
+    height: 2px;
+}
+.imgcomp2{
+    width: 20rem;
+    margin-top: -2rem;
+    height: 12rem;
+    padding: 0.5rem;
+    object-fit: cover;
+}
+.nav-img-comption2{
+    width: 20rem;
+    height: 12rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    align-items: center;
+    background-color: antiquewhite
+}
+.starimg{
+    width: 4.9rem;
+    height: 1rem;
+}
+.ratingcomp{
+    display: flex;
+    align-items: center;
+}
+.starlines{
+    height: 1.8rem;
+   padding-left: 0.4rem;
+}
+.img-comption{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.containerdrop{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.dropdwn-button{
+    background-color: #b88e2f;
+    border: none;
+    width: 12rem;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.2s ease-in-out;
+}
+.dropdwn-button:hover{
+    background-color: #333;
+}
+.comparison-container {
+    margin: 4.5rem;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.linkbutntd{
+    text-decoration: none;
+}
+.butntable{
+    width: 9rem;
+    padding: 0.9rem;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #b88e2f;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.3rem;
+    transition: background-color 0.2s ease-in-out;
+}
+.butntable:hover{
+    background-color: #333;
+}
